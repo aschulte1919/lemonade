@@ -26,19 +26,19 @@ def get_glasses(assets, cost):
 		except:
 			print('Please enter an integer.')
 
-def get_price():
-	while True:
-		print('How many price do you want to charge for lemonade, in cents? ', end = '')
-		try:
-			result = int(raw_input())
-			if result < 0:
-				print('Please enter a nonnegative number.')
-			else:
-				return result
-		except KeyboardInterrupt:
-			raise
-		except:
-			print('Please enter an integer.')
+# def get_price():
+# 	while True:
+# 		print('How many price do you want to charge for lemonade, in cents? ', end = '')
+# 		try:
+# 			result = int(raw_input())
+# 			if result < 0:
+# 				print('Please enter a nonnegative number.')
+# 			else:
+# 				return result
+# 		except KeyboardInterrupt:
+# 			raise
+# 		except:
+# 			print('Please enter an integer.')
 
 def get_signs(assets, sign_cost):
 	while True:
